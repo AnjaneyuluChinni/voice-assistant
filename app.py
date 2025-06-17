@@ -8,14 +8,10 @@ import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from gtts import gTTS
 import google.generativeai as genai
-import pygame
 import base64
 from io import BytesIO
 
 app = Flask(__name__)
-
-# Initialize pygame mixer
-pygame.mixer.init()
 
 # --- Configuration ---
 OPENWEATHERMAP_API_KEY = "7dc6e4149828f811e558584da35a264d"
@@ -210,4 +206,4 @@ def process():
     })
 
 if __name__ == '__main__':
-    app.run(debug=True) 
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000))) 
