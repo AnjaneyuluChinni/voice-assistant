@@ -29,3 +29,4 @@ colorama>=0.4.6
 pip>=23.1
 setuptools>=65.0
 wheel>=0.40
+gunicorn==21.2.0
