@@ -1,7 +1,7 @@
 # Voice Assistant Project
 
 ## Description
-This project is a voice assistant built using Flask, which allows users to interact with it through text input. It can perform various tasks such as greeting users, providing the current time and date, fetching weather information, and searching for information on Wikipedia.
+This project is a voice assistant built using Flask, which allows users to interact with it through text input. It can perform various tasks such as greeting users, providing the current time and date, fetching weather information, and searching for information on Wikipedia
 
 ## Features
 - Greeting users
