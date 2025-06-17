@@ -3,7 +3,6 @@ SpeechRecognition==3.10.1
 gTTS==2.5.1
 requests==2.31.0
 google-generativeai==0.3.2
-torch==2.2.2  # or use torch==2.1.2 (stable with transformers); 2.5.0 is Py3.13-targeted
 torch>=2.5.0,<2.8.0
 transformers==4.38.2
 numpy>=1.24.3,<1.26  # more flexible
